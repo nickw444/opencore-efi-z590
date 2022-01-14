@@ -14,9 +14,12 @@
 | Storage   | NVMe Samsung 980 PRO 1TB (MacOS Boot, PCIe 4.0)                            |
 |           | NVMe Samsung 970 EVO Plus 1TB (Windows Boot)                               |
 |           | SATA SanDisk SDSSDHII480G                                                  |
+| Display   | Dell U3219Q UltraSharp USB C Display                                       |
 
-![Photo of setup](resources/desk.jpeg)
-![About this Mac](resources/sys_info.png)
+<p align="center">
+  <img alt="Photo of setup" src="resources/desk.jpeg">
+  <img alt="System Information (About this Mac)" src="resources/sys_info_2.png">
+</p>
 
 ## ⚠️⚠️ Warning ⚠️⚠️
 
