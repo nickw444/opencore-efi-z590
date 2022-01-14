@@ -5,3 +5,7 @@ This directory contains machine specific SSDT patches. These were generated on m
 ## SSDT-EC.dsl Quirks
 
 The generated `SSDT-EC` doesn't contain the USBX patches to fix power. These are obtained with the precompiled SSDT from [here](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-USBX.aml)
+
+## SSDT-USB-Reset (RHUB) Quirks
+
+This doesn't seem to be needed on this board. Including it for completeness though.
