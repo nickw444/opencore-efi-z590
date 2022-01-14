@@ -15,6 +15,8 @@
 |           | NVMe Samsung 970 EVO Plus 1TB (Windows Boot)                               |
 |           | SATA SanDisk SDSSDHII480G                                                  |
 
+![About this Mac](resources/sys_info.png)
+
 ## ⚠️⚠️ Warning ⚠️⚠️
 
 This is the EFI configuration for my **very specific** combination of hardware. It comes with **absolutely no guarantees** whatsoever.
