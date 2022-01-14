@@ -21,6 +21,25 @@
   <img alt="System Information (About this Mac)" src="resources/sys_info_2.png">
 </p>
 
+## Executive Summary
+
+Overall I was generally quite pleased with how quickly and easily I was able to get Mac OS Monetery up and running on this new hardware, despite (purposely) picking a Z590 motherboard and 11th generation Rocket Lake CPU. With that being said, I am relatively comfortable with configuring OpenCore as I have been running/maintaining my [Z77 Hackintosh](https://github.com/nickw444/opencore-efi-z77) prior to this.
+
+I opted to go for a Rocket Lake + Z590 combo for the following reasons:
+
+* I wanted PCIe 4.0 NVMe speeds
+* I felt reluctant buying an obsolete Z490 board and 10th generation CPU, especially with 12th generation now released
+* Availability of Z490 and 10th generation CPUs is scarce, and thus more pricy than their 11th generation counterparts.
+
+I ensured that the board I picked (or variants of it) some track record for success running Mac OS.
+
+I had a working installer USB / OpenCore configuration running within 2 hours after following the [Dortania Comet Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) and applying relevant patches from the [Dortania Z590 compatibility write up](https://dortania.github.io/hackintosh/updates/2021/04/24/rocket-lake.html).
+
+Once I had a working installer USB, I didn't install MacOS from scratch, instead I booted into my existing install from my [Z77 build](https://github.com/nickw444/opencore-efi-z77) and used Carbon Copy Cloner to migrate the data onto my new PCIe 4.0 NVMe SSD.
+
+I spent a following 6-8 hours doing post-install tweaks and checks, like CPU power management, USB mapping, this write up, etc.
+
+
 ## ⚠️⚠️ Warning ⚠️⚠️
 
 This is the EFI configuration for my **very specific** combination of hardware. It comes with **absolutely no guarantees** whatsoever.
@@ -58,6 +77,12 @@ With this repository being publicly shared on GitHub, there are going to be thin
 ## 💤 Sleep/Wake
 
 * Still testing this! Appear to be having wake failures during long term sleep. Might be caused by Intel Power Gadget.
+
+## 🍎 SMBIOS
+
+I initially chose the iMacPro1,1 SMBIOS, however moved across to MacPro7,1 as it is a newer build, more reflective of the date of release of the hardware I am using.
+
+I have not noticed any issues due to using MacPro7,1, not even the reported [memory slot errors](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html) some users have noticed.
 
 ## 🖥 Hardware
 
