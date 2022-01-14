@@ -37,7 +37,7 @@ gitdir: /Users/nickw/repos/opencore-efi-z590/.git
 
 ### Secret Management
 
-With this repository being publicly shared on GitHub, there are going to be things I do not wish to share, such as `SystemUUID`, `SystemSerialNumber`, and `MLB`.
+With this repository being publicly shared on GitHub, there are going to be things I do not wish to share, such as `SystemUUID`, `SystemSerialNumber`, `ROM`, and `MLB`. I do not check in my `config.plist`, instead `config.redacted.plist` with these private fields redacted.
 
 ## ❓ Guides
 
