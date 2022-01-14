@@ -15,6 +15,7 @@
 |           | NVMe Samsung 970 EVO Plus 1TB (Windows Boot)                               |
 |           | SATA SanDisk SDSSDHII480G                                                  |
 
+![Photo of setup](resources/desk.jpeg)
 ![About this Mac](resources/sys_info.png)
 
 ## ⚠️⚠️ Warning ⚠️⚠️
