@@ -110,7 +110,7 @@ The above listed ports/locations are found by temporarily using [USBInjectAll](h
 
 The Z590 Aorus Elite board doesn't appear to need a XHC1 rename patch, as the XCHI controller sits at `XHCI` ACPI name. However, as above, we see that this board has over 15 ACPI connected USB ports, above the Mac OS limit of 15 ports. Because of this, the `XhciPortLimit` quirk must be enabled to create an initial map of all functioning ports. In my mapping, I noticed when `XhciPortLimit` is enabled alongside `USBInjectAll`, the USB2 personality of many back panel ports did not work. Disabling `XhciPortLimit` and keeping `USBInjectAll` allowed for these to also be mapped (I believe I also needed to use `-uia_exclude_ss` boot flag).
 
-![USBMap Port Map](resources/usb/port_map.png)
+![USBMap Port Map](resources/usb/usb_map.png)
 
 After creating a `USBMap.kext` with the ports we want to enable (less than 16 ports), `XhciPortLimit` can be removed and `USBInjectAll.kext` can be disabled.
 
