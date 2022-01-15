@@ -92,7 +92,25 @@ I have not noticed any issues due to using MacPro7,1, not even the reported [mem
 
 * Defaults as base
 
-<!-- TODO BIOS settings -->
+**Tweaker**
+
+* **CPU Upgrade**: Gaming Profile
+* **Extreme Memory Profile (X.M.P.)**: Profile1
+
+**Settings**
+
+* **IO Ports > Internal Graphics**: Enabled
+
+**System Info.**
+
+* **BIOS Version**: F5 (Upgraded, came with F2 from factory)
+
+**Boot**
+
+* **Fast Boot**: Enabled
+* **Windows 10 Features**: Windows 10
+* **CSM Support**: Disabled
+* **Secure Boot > Secure Boot**: Disabled
 
 ### 🔊 Audio
 
