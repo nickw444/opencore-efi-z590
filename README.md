@@ -198,7 +198,7 @@ Even when using the following patch, wake up without mashing the keyboard still 
 </dict>
 ```
 
-I also tried [https://github.com/osy/USBWakeFixup](https://github.com/osy/USBWakeFixup), however also didn't have any luck with it either.
+I also tried [https://github.com/osy/USBWakeFixup](https://github.com/osy/USBWakeFixup), and by using the correct PCI path, I managed to get this to work (`SB.PC00`, not `SB.PCI0`).
 
 ### 🕸 Ethernet
 
