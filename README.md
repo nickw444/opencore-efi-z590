@@ -187,6 +187,8 @@ Source: [Dortania - Keyboard Wake Issues](https://dortania.github.io/OpenCore-Po
 
 Sometimes macOS requires a second keyboard press or some other wake event to power up the monitor as well, with some requiring a keypress+power button to wake.
 
+Even when using the following patch, wake up without mashing the keyboard still doesn't work.
+
 
 ```xml
 <key>PciRoot(0x0)/Pci(0x14,0x0)</key>
@@ -195,6 +197,8 @@ Sometimes macOS requires a second keyboard press or some other wake event to pow
     <data>AQAAAA==</data>
 </dict>
 ```
+
+I also tried [https://github.com/osy/USBWakeFixup](https://github.com/osy/USBWakeFixup), however also didn't have any luck with it either.
 
 ### 🕸 Ethernet
 
