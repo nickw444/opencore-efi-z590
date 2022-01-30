@@ -118,6 +118,7 @@ I have not noticed any issues due to using MacPro7,1, not even the reported [mem
 | ----------------------|----------------------------------------------------------------|
 | `SSDT-AWAC.aml`       | `SSDT-AWAC` re-enables the old RTC clock that is compatible with macOS ([source](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac.html)). Generated via SSDTTime in Windows. |
 | `SSDT-EC.aml`         | Provides a fake embedded controller. Generated with SSDTTime in Windows. Does not include USBX patch like prebuilt versions do, so `SSDT-USBX.aml` is also required. |
+| `SSDT-GPRW.aml`       | Fixes instant wake due to USB or power state changes. [More info](https://dortania.github.io/OpenCore-Post-Install/usb/misc/instant-wake.html). |
 | `SSDT-HPET.aml`       | HPET IRQ fixes. [More info](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html). Generated via SSDTTime in Windows. Requires DSDT patching in config.plist. |
 | `SSDT-PLUG.aml`       | Enables CPU power management. Generated via SSDTTime in Windows. |
 | `SSDT-SBUS-MCHC.aml`  | Enables the SMBus support. [More info](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html). |
