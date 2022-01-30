@@ -895,6 +895,21 @@
 			<key>idVendor</key>
 			<integer>2652</integer>
 		</dict>
+		<key>0a5c_21ff</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOClass</key>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOProbeScore</key>
+			<integer>3000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>8703</integer>
+			<key>idVendor</key>
+			<integer>2652</integer>
+		</dict>
 		<key>0a5c_22be</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
